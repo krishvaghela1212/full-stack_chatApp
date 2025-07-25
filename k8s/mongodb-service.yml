@@ -5,7 +5,7 @@ metadata:
   namespace: chat-app
 spec:
   selector:
-    app: mongodb
+    app: myapp
   ports:
   - port: 27017
     targetPort: 27017
